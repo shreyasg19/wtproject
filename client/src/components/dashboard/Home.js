@@ -24,9 +24,7 @@ export default class Home extends Component {
 
   render() {
     return (
-      
       <div className="App-header">
-        <Header />
         <Dashboard></Dashboard>
         <div className="container">
           <div className="row">
@@ -34,7 +32,6 @@ export default class Home extends Component {
               <div className="col-md-4" key={video.id}>
                 <Link to={`/player/${video.id}`}>
                   <div className="card border-0">
-                    <img src={`http://localhost:4000${video.poster}`} alt={video.name} />
                     <div className="card-body">
                       <p>{video.name}</p>
                       <p>{video.duration}</p>
@@ -45,7 +42,6 @@ export default class Home extends Component {
               )}
           </div>
         </div>
-        <Footer />
       </div>
     )
   }

@@ -9,7 +9,7 @@ const videos = [
     id: 0,
     poster: '/video/0/poster',
     duration: '3 mins',
-    name: 'Sample 1'
+    name: 'Video 1'
   },
   {
     id: 1,
@@ -36,11 +36,11 @@ app.get('/video/:id/caption', function(req, res) {
   res.sendFile('assets/captions/sample.vtt', { root: __dirname });
 });
 
-app.get('/video/:id/poster', function(req, res) {
+/*app.get('/video/:id/poster', function(req, res) {
   thumbsupply.generateThumbnail(`assets/${req.params.id}.mp4`)
     .then(thumb => res.sendFile(thumb))
     .catch(err => console.log(err))
-});
+});*/
 
 // endpoint to fetch a single video's metadata
 app.get('/video/:id/data', function(req, res) {

@@ -24,14 +24,14 @@ export default class Player extends Component {
 
   render() {
     return (
-      <div className="App-header">
-        <Header />
+      <div className="Player-header">
         <video controls muted autoPlay crossOrigin="anonymous">
           <source src={`http://localhost:4000/video/${this.state.videoId}`} type="video/mp4"></source>
           <track label="English" kind="captions" srcLang="en" src={`http://localhost:4000/video/${this.state.videoId}/caption`} default></track>
         </video>
-        <h1>{ this.state.videoData.name }</h1>
-        <Footer />
+        
+        <h1 >{ this.state.videoData.name }</h1>
+        
       </div>
     )
   }

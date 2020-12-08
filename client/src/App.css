@@ -1,42 +1,27 @@
-.App-header {
-    min-height: 100vh;
-    color: white;
-  }
-  
-  header, footer {
-    background-color: #ffffff;
-    text-align: center;
-    color: rgb(23, 194, 66);
-    padding: 10px 0;
-  }
-  
-  header {
-    margin-bottom: 50px;
-    font-size: 28px;
-  }
-  
-  footer {
-    margin-top: 50px;
-    font-size: 14px;
+.App-header {   
+   
+    background-image: url('https://coolwallpapers.me/picsup/5082757-abstract-artistic-colors-digital-art-pastel.jpg');
+   
   }
   
   .card {
-    margin: 10px 0;
+    margin: 50px 0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLLooODE3mOdV2F_mYcmjk4HTKkWygbR6CEQ&usqp=CAU');
   }
   
   a, a:hover {
-    color: #fd0101;
+    color: #01ecfd;
     text-decoration: none;
   }
   
   video {
     width: 100%;
-    height: 50vh;
+    height: 70vh;
   }
   
   img {
-    height: 100px;
-    object-fit: cover;
+    height: 50px;
+    width: 50px;
     object-position: center top;
   }
   
@@ -44,3 +29,23 @@
     margin-bottom: 5px;
     font-size: 16px;
   }
+  
+.container{
+    width: 200px;
+    height: 600px;
+    
+  }
+h1{color: aliceblue;
+ 
+  text-align: center;
+}
+.Player-header{
+  background-color: rgb(58, 62, 68);
+}
+.card-body{
+  
+  height: 150px;
+}
+.nav-wrapper-white{
+  height: 0px;
+}
